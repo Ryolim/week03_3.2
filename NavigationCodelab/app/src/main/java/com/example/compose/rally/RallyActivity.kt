@@ -69,12 +69,6 @@ fun RallyApp() {
                 composable(route = Overview.route) {
                     Overview.screen()
                 }
-                composable(route = Accounts.route) {
-                    Accounts.screen()
-                }
-                composable(route = Bills.route) {
-                    Bills.screen()
-                }
             }
         }
     }
